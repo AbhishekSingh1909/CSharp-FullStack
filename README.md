@@ -44,31 +44,35 @@ Order Management (View List of Oders)
 
 ### Structure
   ```
-     ├── fstore.WEBAPI
-       ├── src
-        ├── Authorization
-        ├── Database
-        ├── MiddleWare
-        ├── Repository
-        └── Service
-     ├── fStore.Controller
-       ├──src
-         └── Controller
-     ├── fStore.Business
-        ├── src
-         ├── DTO
-         ├── Interface
-         ├── Service
-         └── Shared
-     ├── fStore.Core
-       ├── src
-         ├── Entity
-         ├── Enum
-         ├── Interface
-         └── Parameter
-     └── fStore.Test
-        ├── src
-          └── ServiceTest
+├── fstore.WEBAPI
+│ ├── src
+│ │ ├── Authorization
+│ │ ├── Database
+│ │ ├── MiddleWare
+│ │ ├── Repository
+│ │ └── Service
+│
+├── fStore.Controller
+│ ├── src
+│ │ └── Controller
+│
+├── fStore.Business
+│ ├── src
+│ │ ├── DTO
+│ │ ├── Interface
+│ │ ├── Service
+│ │ └── Shared
+│
+├── fStore.Core
+│ ├── src
+│ │ ├── Entity
+│ │ ├── Enum
+│ │ ├── Interface
+│ │ └── Parameter
+│
+└── fStore.Test
+├── src
+│ └── ServiceTest
   ```
 
 ## Functionalities
