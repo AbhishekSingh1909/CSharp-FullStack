@@ -42,6 +42,35 @@ Order Management (View List of Oders)
   - fStore.sln
   - README.md
 
+### Structure
+  ```
+     ├── fstore.WEBAPI
+       ├── src
+        ├── Authorization
+        ├── Database
+        ├── MiddleWare
+        ├── Repository
+        └── Service
+     ├── fStore.Controller
+       ├──src
+         └── Controller
+     ├── fStore.Business
+        ├── src
+         ├── DTO
+         ├── Interface
+         ├── Service
+         └── Shared
+     ├── fStore.Core
+       ├── src
+         ├── Entity
+         ├── Enum
+         ├── Interface
+         └── Parameter
+     └── fStore.Test
+        ├── src
+          └── ServiceTest
+  ```
+
 ## Functionalities
 
 ### User
@@ -103,11 +132,10 @@ The frontend code and documentation are found in [this repository](https://githu
 - backend and database deployed on live servers
 
 ### Design
+![Architecture](.Diagrams/architecture.png)
 
 #### Database design
-
-
-
+![ERD](.Diagrams/fStore-erd-diagram.png)
 
 
 ##### Repositories
