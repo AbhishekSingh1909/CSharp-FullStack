@@ -136,10 +136,11 @@ The frontend code and documentation are found in [this repository](https://githu
 - backend and database deployed on live servers
 
 ### Design
-![Architecture](.Diagrams/architecture.png)
+![Architecture](/Diagrams/architecture.png)
 
 #### Database design
-![ERD](.Diagrams/fStore-erd-diagram.png)
+![ERD](/Diagrams/ErdDiagram.png)
+![ERD](/Diagrams/fStore-erd-diagram.png)
 
 
 ##### Repositories
