@@ -8,7 +8,9 @@
 ![EF Core](https://img.shields.io/badge/EF%20Core-v.7-cyan)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.14-drakblue)
 
-This is the final project of Integrify Academy which involves creating a Fullstack project with React and Redux in the frontend and ASP.NET Core 8, Entity Framework Core and Postgre SQL  in the backend. This is an e-commerce website called fStore which has folowing features 
+This project was done as a final project of the Full Stack Program at [(https://www.integrify.io/)]. It reflects the functionalities of a typical e-commerce application. The data is fetched and can be created, deleted, updated from an API which is running on Azure and created in ASP.NET Core 8. The application comes with an authentication system with defined roles for users. Guests can interact with the products by filtering, searching, sorting, or adding, removing them from their cart. Register as a customer allows you to place an order, manage your order history, post a review on a product. While the admin can perform CRUD operations on the products, users and all the orders in their own dashboard.
+NOTE: This repository only contains the backend of the application [(https://github.com/AbhishekSingh1909/CSharp-FullStack.git)]. The frontend repository can be found [here](https://github.com/AbhishekSingh1909/Frontend-ECommerce.git)
+
 User functionalities :
 (Registering, Authentication, Browsing through products, Shopping Cart, Order Creation)
 
@@ -29,8 +31,10 @@ Order Management (View List of Oders)
 
 ## Technologies
 
-- Frontend: SASS, TypeScript, React, Redux Toolkit,Material UI
+- Frontend: SASS, TypeScript, React, Material-UI, Redux Toolkit
 - Backend: ASP.NET Core, Entity Framework Core, PostgreSQL
+- Testing: Jest for frontend and XUnit, Moq for backend
+- Deployment: frontend on Vercel, the backend on Azure, and the database on ElephantSQL.
 
 ## File Structure
   - fStore
@@ -119,11 +123,11 @@ Order Management (View List of Oders)
 
 ## Frontend
 
-The frontend code and documentation are found in [this repository](https://github.com/AbhishekSingh1909/fs16_CSharp-FullStack.git).
+The frontend code and documentation are found at [this repository](https://github.com/AbhishekSingh1909/Frontend-ECommerce.git).
 
 
 ## Backend
-
+The backend code and documentation are found at [this repository](https://github.com/AbhishekSingh1909/CSharp-FullStack.git)
 ### General
 
 - CLEAN architecture
