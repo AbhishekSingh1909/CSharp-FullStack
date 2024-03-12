@@ -8,9 +8,9 @@
 ![EF Core](https://img.shields.io/badge/EF%20Core-v.7-cyan)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v.14-drakblue)
 
-This project was done as a final project of the Full Stack Program at [](https://www.integrify.io/). It reflects the functionalities of a typical e-commerce application. The data is fetched and can be created, deleted, updated from an API which is running on Azure and created in ASP.NET Core 8. The application comes with an authentication system with defined roles for users. Guests can interact with the products by filtering, searching, sorting, or adding, removing them from their cart. Register as a customer allows you to place an order, manage your order history, post a review on a product. While the admin can perform CRUD operations on the products, users and all the orders in their own dashboard.
+This project was done as a final project of the Full Stack Program at [Integrify](https://www.integrify.io/). It reflects the functionalities of a typical e-commerce application. The data is fetched and can be created, deleted, updated from an API which is running on Azure and created in ASP.NET Core 8. The application comes with an authentication system with defined roles for users. Guests can interact with the products by filtering, searching, sorting, or adding, removing them from their cart. Register as a customer allows you to place an order, manage your order history, post a review on a product. While the admin can perform CRUD operations on the products, users and all the orders in their own dashboard.
 
-NOTE: This repository only contains the backend of the application [](https://github.com/AbhishekSingh1909/CSharp-FullStack.git) and the frontend repository can be found [here](https://github.com/AbhishekSingh1909/Frontend-ECommerce.git)
+NOTE: This repository only contains the backend of the application [link](https://github.com/AbhishekSingh1909/CSharp-FullStack.git) and the frontend repository can be found [here](https://github.com/AbhishekSingh1909/Frontend-ECommerce.git)
 
 User functionalities :
 (Registering, Authentication, Browsing through products, Shopping Cart, Order Creation)
