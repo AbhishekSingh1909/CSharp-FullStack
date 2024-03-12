@@ -196,11 +196,6 @@ The backend code [link](https://github.com/AbhishekSingh1909/CSharp-FullStack.gi
 ### Swagger Link
 [Link to Swagger](https://fakestore.azurewebsites.net/swagger/index.html)
 
-### Docker Image Link
-[Link for Backend](http://localhost:8080/swagger/index.html)
-[Link for frontend](http://localhost:3000/)
-
-
 #### Requirements
 - [.NET](https://dotnet.microsoft.com/en-us/download)
    - [Entity Framework tool](https://learn.microsoft.com/en-us/ef/core/cli/dotnet)
